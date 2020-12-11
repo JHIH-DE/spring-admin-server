@@ -1,0 +1,15 @@
+server:
+  port: 9011
+
+spring:
+  # IDENTITY (ContextIdApplicationContextInitializer)
+  application:
+    name: ServiceAdmin
+  boot:
+    admin:
+      notify:
+        line:
+          enabled: true
+          channelSecret: 9af54746e26145703142aad9dc7061dd
+          channelToken: ltJQ5KnytQZdF6FO/TBiU8wGyHMtdECep076IRkNXAGm0sOqOYEgbjdwf6W4t8JhiPfi0oPJWdzZJ/yBUk0ciq3bvqB2Sz/Ty4yryUYZb08u8/xDl6KDncWXC2pSJtuJJk7nNmwa5PCmqLfCCghj2wdB04t89/1O/w1cDnyilFU=
+          to: U0a62d8555a9ed5931dd9d9cc0a49f6a8
